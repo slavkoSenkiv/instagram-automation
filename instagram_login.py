@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-curent_working_account = open('/Users/ysenkiv/Code/my projects/instagram/curent_working_account.txt', 'r')
+curent_working_account = open('/Users/ysenkiv/Code/my projects/instagram automation/curent_working_account.txt', 'r')
 account = curent_working_account.read()
 print(account)
 
